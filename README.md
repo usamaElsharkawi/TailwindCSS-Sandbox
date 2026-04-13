@@ -12,6 +12,8 @@ I am following the comprehensive course by Brad Traversy:
 - **Instructor:** Brad Traversy
 - **Focus:** Building real-world projects while mastering core utility classes and modern v4 features.
 
+> **Note:** While the course is based on **Tailwind CSS v3**, we are using our AI teaching stack to fill the gap between v3 and v4, ensuring we understand the latest architectural shifts and new features.
+
 ---
 
 ## 🛠️ AI-Powered Learning Environment
@@ -30,6 +32,31 @@ To ensure a deep understanding of not just _how_ to use Tailwind, but _why_ it w
 
 ### 🌟 Key Focus: The v4 Revolution
 
-In this journey, we prioritize the **v4 Alpha/Beta features**, moving beyond traditional configuration into a **CSS-First** mindset.
+In this journey, we prioritize the **v4 features**, moving beyond traditional configuration into a **CSS-First** mindset using the **Oxide Engine**.
+
+---
+
+## 📈 Learning Progress & "v4 Bridges"
+
+### 🏁 Module 01: Utility-First Fundamentals
+- **Core Concept:** Building unique UIs from low-level "ingredients" rather than pre-built components.
+- **v4 Bridge:** Shifted from JavaScript scanning to the high-performance **Rust-based Scanner**. Learned that utilities now live in native CSS `@layer utilities`.
+
+### 🎨 Module 02: Colors & Design Systems
+- **Color Scales:** Mastered the 50-950 numeric scale. Identified the **700/800 shade "Sweet Spot"** for professional text readability on white backgrounds.
+- **Utilities Mastered:** `divide-y` (parent-driven borders), `accent-color` (native input styling), and `box-shadow` depth.
+- **The v4 Bridge:**
+    - **OKLCH Scale:** Understood how v4 uses perceptually uniform colors (OKLCH) instead of Hex/RGB for perfect visual balance across all hues.
+    - **Variable-First Architecture:** Transitioned from v3's hardcoded classes to v4's **CSS Variables** logic. 
+    - **@theme Directive:** Learned how v4 manages theme tokens inside CSS rather than `tailwind.config.js`.
+    - **Registered vs. Dynamic:** Distinguished between registered properties (`bg-brand-primary`) and dynamic variable shorthand (`bg-(--custom-var)`).
+
+---
+
+### ✍️ Instructor Notes & Best Practices
+- **Outline vs. Border:** Borders take up box-model space; Outlines are "ghost lines" that don't shift layout. Use `outline-offset` for premium "floating" focus rings.
+- **Code Cleanliness:** Avoided "bracket-hell" (`[...]`) by understanding how v4 encourages defining variables at the CSS level.
+
+---
 
 > "Design is not just what it looks like and feels like. Design is how it works." — _Tailwind Journey 2026_
