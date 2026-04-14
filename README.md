@@ -38,11 +38,16 @@ In this journey, we prioritize the **v4 features**, moving beyond traditional co
 
 ## 📈 Learning Progress & "v4 Bridges"
 
-### 🏁 Module 01: Utility-First Fundamentals
+<details>
+<summary><b>🏁 Module 01: Utility-First Fundamentals</b></summary>
+
 - **Core Concept:** Building unique UIs from low-level "ingredients" rather than pre-built components.
 - **v4 Bridge:** Shifted from JavaScript scanning to the high-performance **Rust-based Scanner**. Learned that utilities now live in native CSS `@layer utilities`.
+</details>
 
-### 🎨 Module 02: Colors & Design Systems
+<details>
+<summary><b>🎨 Module 02: Colors & Design Systems</b></summary>
+
 - **Color Scales:** Mastered the 50-950 numeric scale. Identified the **700/800 shade "Sweet Spot"** for professional text readability on white backgrounds.
 - **Utilities Mastered:** `divide-y` (parent-driven borders), `accent-color` (native input styling), and `box-shadow` depth.
 - **The v4 Bridge:**
@@ -50,6 +55,14 @@ In this journey, we prioritize the **v4 features**, moving beyond traditional co
     - **Variable-First Architecture:** Transitioned from v3's hardcoded classes to v4's **CSS Variables** logic. 
     - **@theme Directive:** Learned how v4 manages theme tokens inside CSS rather than `tailwind.config.js`.
     - **Registered vs. Dynamic:** Distinguished between registered properties (`bg-brand-primary`) and dynamic variable shorthand (`bg-(--custom-var)`).
+</details>
+
+<details>
+<summary><b>📏 Module 03: Container & Spacing</b></summary>
+
+*Coming soon...*
+- **v4 Focus:** Native Container Queries and the upgraded spacing scale.
+</details>
 
 ---
 
