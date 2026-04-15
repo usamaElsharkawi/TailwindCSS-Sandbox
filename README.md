@@ -60,8 +60,16 @@ In this journey, we prioritize the **v4 features**, moving beyond traditional co
 <details>
 <summary><b>📏 Module 03: Container & Spacing</b></summary>
 
-*Coming soon...*
-- **v4 Focus:** Native Container Queries and the upgraded spacing scale.
+- **Logical-First Standard:** Adopted `ms-*` (Start) and `me-*` (End) for layout instead of `ml/mr` to ensure RTL/International compatibility.
+- **The Box Model:**
+    - **Padding:** Internal "air" (stays with background color).
+    - **Margin:** External "push" (between elements). `auto` margins work as "bungee cords" for centering/shifting.
+- **Spacing Strategies:**
+    - **`gap-*`**: Modern choice for Flex/Grid containers. Handles wrapping and logical directions natively.
+    - **`space-x/y`**: Sibling-based margin magic. Use only for normal flow or legacy fallbacks.
+- **The v4 Bridge:**
+    - **Native Container Queries:** Shifted from Viewport-based (`md:`) to Parent-based (`@md:`) using the new `@container` context.
+    - **Variable Spacing:** No longer hardcoded pixels; v4 uses `--spacing-*` variables for a unified, scalable grid.
 </details>
 
 ---
