@@ -58,18 +58,24 @@ In this journey, we prioritize the **v4 features**, moving beyond traditional co
 </details>
 
 <details>
-<summary><b>📏 Module 03: Container & Spacing</b></summary>
+<summary><b>🖋️ Module 04: Typography & Visual Hierarchy</b></summary>
 
-- **Logical-First Standard:** Adopted `ms-*` (Start) and `me-*` (End) for layout instead of `ml/mr` to ensure RTL/International compatibility.
-- **The Box Model:**
-    - **Padding:** Internal "air" (stays with background color).
-    - **Margin:** External "push" (between elements). `auto` margins work as "bungee cords" for centering/shifting.
-- **Spacing Strategies:**
-    - **`gap-*`**: Modern choice for Flex/Grid containers. Handles wrapping and logical directions natively.
-    - **`space-x/y`**: Sibling-based margin magic. Use only for normal flow or legacy fallbacks.
+- **Logical Alignment Standard:** Standardized on `text-start` and `text-end` for layout-agnostic designs.
+- **Visual Hierarchy Logic:** 
+    - **Leading (Line-Height):** Relaxed for body code, tight for headings.
+    - **Tracking (Letter-Spacing):** Tightened headings for a modern look; expanded uppercase text for a "premium" feel.
+- **Premium Decorations:** Mastered `underline-offset-*` to prevent text-decoration crashes and enhance readability.
 - **The v4 Bridge:**
-    - **Native Container Queries:** Shifted from Viewport-based (`md:`) to Parent-based (`@md:`) using the new `@container` context.
-    - **Variable Spacing:** No longer hardcoded pixels; v4 uses `--spacing-*` variables for a unified, scalable grid.
+    - **Fluid Typography:** Understood how the Oxide engine uses `clamp()` to eliminate the need for manual `md:text-*` media queries.
+    - **Variable Weights:** Prepared for the transition to "Variable Fonts" using the new v4 architecture.
+    - **@theme Management:** Moved font-family registration from `.js` configurations to CSS custom properties.
+</details>
+
+<details>
+<summary><b>📦 Module 05: Sizing</b></summary>
+
+*Coming soon...*
+- **v4 Focus:** The new percentage-based utilities and fractional widths.
 </details>
 
 ---
