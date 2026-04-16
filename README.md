@@ -101,10 +101,26 @@ In this journey, we prioritize the **v4 features**, moving beyond traditional co
 </details>
 
 <details>
-<summary><b>✨ Module 07: Backgrounds & Shadows</b></summary>
+<summary><b>✨ Module 07: Backgrounds & Shadows Aesthetic</b></summary>
+
+- **Background Architecture:** 
+    - Distinguished between **Content** (`<img>`) and **Decoration** (`bg-image`).
+    - Standardized on Fallback Colors (`bg-slate-200`) to ensure UX stability during image loads.
+- **Gradient Road-Trips:** Mastered the `from-via-to` logic to create multi-stop, professional transitions.
+- **Elevation Logic (Shadows):** 
+    - Treated shadows as **Altitude** (z-axis depth), using larger blur/spread for higher-priority items.
+    - Implemented **Colored Shadows** (`shadow-blue-500/50`) for modern, glassmorphism-style designs.
+- **Mix-Blend Mastery:** Used `mix-blend-overlay` to integrate elements with their background context (Photoshop-in-CSS).
+- **The v4 Bridge:**
+    - **OKLCH Gradients:** Understood how v4 eliminates "Gray Dead Zones" using perceptually uniform color mixing.
+    - **Shadow Tokens:** Prepared for native CSS variable shadows (`--shadow-xl`) for centralized depth management.
+</details>
+
+<details>
+<summary><b>🖼️ Module 08: Borders & Radius</b></summary>
 
 *Coming soon...*
-- **v4 Focus:** The new `sky-500/10` opacity shorthand and advanced gradient logic.
+- **v4 Focus:** The new `outline` utilities and simplified ring logic.
 </details>
 
 ---
