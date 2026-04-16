@@ -134,10 +134,22 @@ In this journey, we prioritize the **v4 features**, moving beyond traditional co
 </details>
 
 <details>
-<summary><b>🛠️ Module 09: Filters</b></summary>
+<summary><b>🛠️ Module 09: Filters & Visual FX</b></summary>
+
+- **Post-Processing Mastery:** Explored the "Creative Suite" of filters: `blur`, `brightness`, `contrast`, `grayscale`, `invert`, `sepia`, and `hue-rotate`.
+- **Interactive States:** Implemented filter-based hover effects (e.g., colorizing a grayscale image on hover) for cleaner UI interactions.
+- **The "High-End" Glass Look:** Understood `backdrop-blur` as the standard for modern "Glassmorphism" headers and overlays.
+- **The v4 Bridge (The "Industrial Revolution"):**
+    - **Performance Optimization:** Identified the massive jump from v3's "Universal Filter Stack" (Variable-heavy) to v4's "Direct Property" generation.
+    - **GPU Acceleration:** Understood how Oxide-generated CSS allows the browser to offload filters to the Graphics Card for 60fps performance on mobile.
+    - **Infinite Logic:** Prepared for v4's ability to calculate any arbitrary filter value (e.g., `brightness-113`) without configuration overhead.
+</details>
+
+<details>
+<summary><b>🌀 Module 10: Interactivity & Transitions</b></summary>
 
 *Coming soon...*
-- **v4 Focus:** Performance-optimized SVG filters and backdrop logic.
+- **v4 Focus:** The new `transition-all` defaults and hardware-accelerated transforms.
 </details>
 
 ---
