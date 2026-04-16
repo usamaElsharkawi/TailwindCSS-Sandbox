@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,26 +9,92 @@
   </head>
   <body>
     <!-- Positioning -->
+    <div class="relative bg-red-200 w-1/4 h-64">
+      Parent element
+      <div
+        class="absolute bg-sky-300 w-1/4 h-1/2 bottom-0 right-0 py-5 text-center"
+      >
+        Absolute child
+      </div>
+    </div>
 
     <!-- Top left corner -->
-
+    <div
+      class="relative bg-amber-200 w-1/6 h-64 text-amber-900 uppercase tracking-widest pl-4 pt-4 mb-5"
+    >
+      <span class="absolute bottom-4 right-4">Top left corner</span>
+      <div class="absolute top-0 left-0 bg-amber-500 w-1/2 h-1/2"></div>
+    </div>
     <!-- Top right corner -->
-
+    <div
+      class="relative bg-amber-200 w-1/6 h-64 text-amber-900 uppercase tracking-widest pl-4 pt-4 mb-5"
+    >
+      <span class="absolute bottom-4 left-4">Top right corner</span>
+      <div class="absolute top-0 right-0 bg-amber-500 w-1/2 h-1/2"></div>
+    </div>
     <!-- Bottom left corner -->
-
+    <div
+      class="relative bg-amber-200 w-1/6 h-64 text-amber-900 uppercase tracking-widest pl-4 pt-4 mb-5"
+    >
+      <span class="absolute top-4 right-4">bottom left corner</span>
+      <div class="absolute bottom-0 left-0 bg-amber-500 w-1/2 h-1/2"></div>
+    </div>
     <!-- Bottom right corner -->
-
+    <div
+      class="relative bg-amber-200 w-1/6 h-64 text-amber-900 uppercase tracking-widest pl-4 pt-4 mb-5"
+    >
+      <span class="absolute top-4 left-4">bottom right corner</span>
+      <div class="absolute bottom-0 right-0 bg-amber-500 w-1/2 h-1/2"></div>
+    </div>
     <!-- Span top edge -->
-
+    <div
+      class="relative bg-amber-200 w-1/6 h-64 text-amber-900 uppercase tracking-widest mb-5"
+    >
+      <span class="absolute bottom-4 left-4">Span top edge</span>
+      <div class="absolute inset-x-0 bg-amber-500 h-1/2"></div>
+    </div>
     <!-- Span left edge -->
-
+    <div
+      class="relative bg-amber-200 w-1/6 h-64 text-amber-900 uppercase tracking-widest mb-5"
+    >
+      <span class="absolute top-4 right-4 [writing-mode:vertical-rl]"
+        >Span top edge</span
+      >
+      <div class="absolute inset-y-0 bg-amber-500 w-1/2"></div>
+    </div>
     <!-- Span right edge -->
-
+    <div
+      class="relative bg-amber-200 w-1/6 h-64 text-amber-900 uppercase tracking-widest mb-5"
+    >
+      <span class="absolute top-4 top-4 [writing-mode:vertical-lr]"
+        >Span top edge</span
+      >
+      <div class="absolute inset-y-0 right-0 bg-amber-500 w-1/2"></div>
+    </div>
     <!-- Span bottom edge -->
-
+    <div
+      class="relative bg-amber-200 w-1/6 h-64 text-amber-900 uppercase tracking-widest mb-5"
+    >
+      <span class="absolute top-4 left-4">Span top edge</span>
+      <div class="absolute inset-x-0 bottom-0 bg-amber-500 h-1/2"></div>
+    </div>
     <!-- Display Classes -->
+    <div class="bg-red-500 block">I am a Block (I take the whole row)</div>
+    <span class="bg-blue-500 inline w-64 h-64"
+      >I am Inline (My width/height won't work!)</span
+    >
+    <span class="bg-green-500 inline-block w-32 h-32"
+      >I am Inline-Block (Look! My width works!)</span
+    >
 
     <!-- Z-Index -->
+    <div class="relative">
+      <!-- Box 1 (Higher in code, but we will put it on top) -->
+      <div class="absolute top-0 left-0 size-32 bg-blue-500 z-20">z-20</div>
+
+      <!-- Box 2 (Lower in code, usually on top, but we will push it back) -->
+      <div class="absolute top-8 left-8 size-32 bg-red-500 z-10">z-10</div>
+    </div>
 
     <!-- Floats -->
   </body>

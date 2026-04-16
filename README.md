@@ -72,10 +72,39 @@ In this journey, we prioritize the **v4 features**, moving beyond traditional co
 </details>
 
 <details>
-<summary><b>📦 Module 05: Sizing</b></summary>
+<summary><b>📦 Module 05: Sizing & Dimension Logic</b></summary>
+
+- **The Multiplier Scale:** Solidified the "4x Rule" (1 Unit = 4px / 0.25rem). Thinking in **Architect Increments** instead of raw pixels.
+- **Fixed vs. Fractional:**
+    - **Fixed (`w-64`):** Used for precise, non-scaling elements.
+    - **Fractional (`w-1/2`):** Used for fluid, percentage-based layouts.
+- **The "Height Trap" Insight:** Understood that percentage-based heights (`h-1/2`) require a defined parent height to function; preferred `h-screen` or `min-h-screen` for hero sections.
+- **Boundary Control:** Learned to use `max-w-prose` and `max-w-*` to maintain text readability by "capping" width.
+- **The v4 Bridge:**
+    - **The `size-*` Utility:** Replaced redundant `w-10 h-10` with the cleaner `size-10` v4 standard.
+    - **Oxide Infinite Scale:** Learned that v4 eliminates the "Size List" limitation. Any increment (like `w-13` or `w-101`) works dynamically without custom configuration.
+</details>
+
+<details>
+<summary><b>📐 Module 06: Layout & Positioning Architecture</b></summary>
+
+- **The Anchor and the Ship:** Mastered the `relative` vs. `absolute` relationship.
+- **Display Physics:** 
+    - **`block`**: Greedy bricks that take the full row.
+    - **`inline`**: Flowing water that ignores width/height.
+    - **`inline-block`**: Hybrid elements that flow but respect sizing.
+- **Depth & Dimension:** Understood that `z-index` is a 3D Floor system that requires a `position` property (Anchor) as the **Unlock Key**.
+- **Architectural Orientation:** Experimented with `writing-mode: vertical` to flip the Inline and Block axes.
+- **The v4 Bridge:**
+    - **Logical Insets:** Moving toward `inset-inline` and `inset-block` shorthands as the v4/Oxide standard.
+    - **Z-Index Isolation:** Prepared for v4's improved management of Stacking Contexts for complex UI overlays.
+</details>
+
+<details>
+<summary><b>✨ Module 07: Backgrounds & Shadows</b></summary>
 
 *Coming soon...*
-- **v4 Focus:** The new percentage-based utilities and fractional widths.
+- **v4 Focus:** The new `sky-500/10` opacity shorthand and advanced gradient logic.
 </details>
 
 ---
