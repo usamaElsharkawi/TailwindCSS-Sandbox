@@ -117,10 +117,27 @@ In this journey, we prioritize the **v4 features**, moving beyond traditional co
 </details>
 
 <details>
-<summary><b>🖼️ Module 08: Borders & Radius</b></summary>
+<summary><b>🖼️ Module 08: Borders & Radius Architecture</b></summary>
+
+- **Physical Borders (`border-*`):** 
+    - Mastered the **Wooden Fence** logic: Borders take up physical space and impact the box size.
+    - Used directional borders (`border-t`, `border-x-8`) for specific structural emphasis.
+- **Radius & Curves (`rounded-*`):** 
+    - Explored the "Pill" vs. "Circle" logic using `rounded-full`.
+    - Implemented directional rounding (`rounded-t-2xl`) for card-based designs.
+- **Ghost Outlines (`outline-*`):** 
+    - Mastered the **Laser Beam** logic: Outlines are a-physical and do not shift the layout.
+    - Understood their critical role in **Accessibility** and **Focus States**.
+- **The v4 Bridge:**
+    - **Outline-First Strategy:** Prepared for v4's move toward using Outlines for most "ring" and "focus" effects due to better browser support.
+    - **Simplified Logic:** Identified that v4 reduces the need for complex "ring" math by making `outline` a first-class citizen with more styling power.
+</details>
+
+<details>
+<summary><b>🛠️ Module 09: Filters</b></summary>
 
 *Coming soon...*
-- **v4 Focus:** The new `outline` utilities and simplified ring logic.
+- **v4 Focus:** Performance-optimized SVG filters and backdrop logic.
 </details>
 
 ---
