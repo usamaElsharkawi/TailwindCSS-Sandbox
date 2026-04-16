@@ -146,10 +146,25 @@ In this journey, we prioritize the **v4 features**, moving beyond traditional co
 </details>
 
 <details>
-<summary><b>🌀 Module 10: Interactivity & Transitions</b></summary>
+<summary><b>🌀 Module 10: Interactivity & State Logic</b></summary>
+
+- **The Feedback Loop:** Mastered the three "Touch" states: `hover:` (Presence), `focus:` (Selection), and `active:` (Tactile Push).
+- **Group Communication:** Implemented the `group` and `group-hover:` pattern to create parent-child state relationships (Walkie-Talkie logic).
+- **List Rhythm:** Used Pseudo-classes like `first:`, `even:`, and `odd:` to generate zebra-striping and layout rhythm without JavaScript math.
+- **User Agency:**
+    - **`select-none`**: Applied the "Native App" feel to interactive components.
+    - **`resize`**: Understood the `overflow` requirement to give manual sizing power to the user.
+    - **`scroll-smooth`**: Implemented global "Gliding" navigation on the `<html>` root.
+- **The v4 Bridge:**
+    - **The :has() Revolution:** Prepared for the **Parent Selector** which eliminates React State (`useState`) for many UI interactions.
+    - **Transition Defaults:** Understood how Oxide moves toward automatic, smart transitions to reduce HTML noise.
+</details>
+
+<details>
+<summary><b>🎬 Module 11: Breakpoints & Media Queries</b></summary>
 
 *Coming soon...*
-- **v4 Focus:** The new `transition-all` defaults and hardware-accelerated transforms.
+- **v4 Focus:** Container queries as the new responsive standard.
 </details>
 
 ---
