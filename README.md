@@ -207,10 +207,30 @@ In this journey, we prioritize the **v4 features**, moving beyond traditional co
 </details>
 
 <details>
-<summary><b>🌊 Module 14: Flexbox</b></summary>
+<summary><b>🌊 Module 14: Flexbox Architecture</b></summary>
+
+- **1D Flow Logic:** Mastered the "Conveyor Belt" strategy: Flexbox manages items in one direction at a time (Row or Column).
+- **Axis Mastery:** 
+    - **`justify-*`**: Alignment along the flow (Main Axis).
+    - **`items-*`**: Alignment across the flow (Cross Axis).
+- **The "Personality" Trio:** 
+    - **`flex-grow`**: The element fills extra space.
+    - **`flex-shrink`**: The element squashes to prevent overflow.
+    - **`flex-none`**: The "Physical Wall"—fixed dimensions that ignore the flow.
+- **Hierarchy Shorthands:** 
+    - **`flex-1`**: Forces perfect symmetry (ignores content size).
+    - **`flex-auto`**: Prioritizes content size while remaining flexible.
+- **HTML Time Travel (`order-*`):** Used CSS ordering to reposition elements without touching the semantic HTML order (critical for Mobile-First layout shifts).
+- **The v4 Bridge:**
+    - **Logical Axis:** Transitioned toward thinking in `inline` and `block` terms for future RTL and Internationalization support.
+    - **Oxide Performance:** Understood how v4 simplifies `flex-basis` math to reduce layout "jumps" during page load.
+</details>
+
+<details>
+<summary><b>🏁 Module 15: Grid</b></summary>
 
 *Coming soon...*
-- **v4 Focus:** Flex-gap logic and modernized axis control.
+- **v4 Focus:** Subgrid support and simplified area definitions.
 </details>
 
 ---
