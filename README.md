@@ -245,8 +245,23 @@ In this journey, we prioritize the **v4 features**, moving beyond traditional co
 <details>
 <summary><b>🛠️ Module 16: Transforming & Transitions</b></summary>
 
+- **Hardware-Accelerated Motion:** 
+    - Mastered **Transforms** (`scale`, `rotate`, `translate`) to ensure smooth 60fps animations by offloading calculations to the GPU.
+- **Timing & Physics:** 
+    - Implemented **Transitions** with variable durations (`duration-300` vs `700`) to simulate the feeling of "Weight" and "Friction" in the UI.
+- **Pivot Mechanics:** Used **`origin-*`** to control the focal point of movements (e.g., making a box swing like a door vs. spin like a wheel).
+- **Orchestration (`group-hover`):** 
+    - Built comprehensive hover patterns where a parent state triggers multiple complex child motions (simultaneous zoom, fade, and slide).
+- **The v4 Bridge:**
+    - **Automatic Transitions:** Prepared for v4's "Liquid" engine which applies default transitions to common hover states, reducing HTML bloat.
+    - **Independent Properties:** Transitioned to v4-style direct property application, removing the need for the legacy `transform` utility.
+</details>
+
+<details>
+<summary><b>✨ Module 17: Animation Masterclass</b></summary>
+
 *Coming soon...*
-- **v4 Focus:** Automatic transitions and hardware-accelerated transforms.
+- **v4 Focus:** Custom keyframes in CSS variables and motion-optimized engines.
 </details>
 
 ---
