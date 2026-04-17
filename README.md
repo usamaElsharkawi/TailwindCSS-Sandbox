@@ -227,10 +227,26 @@ In this journey, we prioritize the **v4 features**, moving beyond traditional co
 </details>
 
 <details>
-<summary><b>🏁 Module 15: Grid</b></summary>
+<summary><b>🏁 Module 15: Grid Architecture</b></summary>
+
+- **2D Blueprint Logic:** Mastered coordinates: Controlling both Rows and Columns simultaneously to create a structural "Graph."
+- **Mathematical Space (`fr`):** Implemented the **Fractional unit** to divide available space into equal parts automatically, eliminating pixel-based math.
+- **The Brick Strategy (`span-*`):** 
+    - **`col-span-*`**: Stretching elements across the horizontal matrix.
+    - **`row-span-*`**: Stretching elements down the vertical matrix.
+- **Hybrid Architecture:** Established the "Senior Standard":
+    - Use **Grid** for global structural frameworks.
+    - Use **Flex** for local detail alignment within grid cells.
+- **The v4 Bridge:**
+    - **Subgrid Mastery:** Prepared for v4's ability to inherit grid lines across nested components, ensuring perfect horizontal alignment across disparate cards.
+    - **Oxide Scaling:** Identified how v4 simplifies repetitive grid definitions (like `grid-cols-12`) for faster browser parsing.
+</details>
+
+<details>
+<summary><b>🛠️ Module 16: Transforming & Transitions</b></summary>
 
 *Coming soon...*
-- **v4 Focus:** Subgrid support and simplified area definitions.
+- **v4 Focus:** Automatic transitions and hardware-accelerated transforms.
 </details>
 
 ---

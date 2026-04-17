@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -10,7 +10,33 @@
   <body>
     <!-- Grid cols and rows -->
 
-    <!-- Col and row span -->
+    <div class="grid grid-cols-3 gap-4 h-screen p-4 bg-slate-100">
+      <!-- Header: Spans all 3 columns -->
+      <header class="col-span-3 bg-blue-500 text-white p-4 rounded-lg">
+        Header (Span 3)
+      </header>
+
+      <!-- Sidebar: Takes 1 column, but Spans 2 rows down -->
+      <aside class="row-span-2 bg-white shadow p-4 rounded-lg">
+        Sidebar (Row Span 2)
+      </aside>
+
+      <!-- Main Content: Takes remaining 2 columns -->
+      <main class="col-span-2 bg-white shadow p-4 rounded-lg h-64">
+        Main Content (Col Span 2)
+      </main>
+
+      <!-- Small Social Widget: Takes 1 column -->
+      <div class="bg-white shadow p-4 rounded-lg">Widget</div>
+
+      <!-- Small Stats Widget: Takes 1 column -->
+      <div class="bg-white shadow p-4 rounded-lg">Stats</div>
+
+      <!-- Footer: Spans all 3 columns -->
+      <footer class="col-span-3 bg-slate-800 text-white p-4 rounded-lg">
+        Footer (Span 3)
+      </footer>
+    </div>
   </body>
 </html>
 
