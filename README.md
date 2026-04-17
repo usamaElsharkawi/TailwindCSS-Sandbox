@@ -161,10 +161,25 @@ In this journey, we prioritize the **v4 features**, moving beyond traditional co
 </details>
 
 <details>
-<summary><b>🎬 Module 11: Breakpoints & Media Queries</b></summary>
+<summary><b>🎬 Module 11: Responsive Architecture & Breakpoints</b></summary>
+
+- **Mobile-First Philosophy:** 
+    - Mastered the "Expanding House" strategy: Standardized on writing phone-first styles (`base class`) and only using prefixes (`md:`, `lg:`) to add complexity for larger screens.
+- **Viewport Constraints (v3 Standard):** 
+    - Implemented responsiveness using standard screen-size breakpoints: `sm` (640px), `md` (768px), `lg` (1024px), and `xl` (1280px).
+- **Self-Aware Components (The Container Revolution):** 
+    - Mastered **Container Queries** (`@container`): Enabling components to adapt based on their **Parent Box** width rather than the browser window.
+    - Used **Named Containers** (`/card`) for surgical precision in complex, nested dashboard layouts.
+- **The v4 Bridge:**
+    - **Oxide Engine Optimization:** Prepared for v4's performance-first container query engine that offloads responsive calculations to the browser's native API.
+    - **Component Autonomy:** Transitioned toward building components that manage their own responsive logic, making React code truly portable.
+</details>
+
+<details>
+<summary><b>📐 Module 12: Typography & Spacing Pro</b></summary>
 
 *Coming soon...*
-- **v4 Focus:** Container queries as the new responsive standard.
+- **v4 Focus:** Fluid typography with `clamp()` and mathematical padding scales.
 </details>
 
 ---
