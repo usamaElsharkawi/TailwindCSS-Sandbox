@@ -194,8 +194,23 @@ In this journey, we prioritize the **v4 features**, moving beyond traditional co
 <details>
 <summary><b>🎭 Module 13: Aspect Ratio & Object Fit</b></summary>
 
+- **Mathematical Shapes (`aspect-*`):** 
+    - Mastered the "Container Logic": Defining the pure geometric shape (`square`, `video`, `auto`) independent of the inner content.
+- **The Packing Strategy (`object-*`):** 
+    - **`object-cover`**: The "Designer's Standard"—fills the container completely by cropping, while preserving image proportions.
+    - **`object-contain`**: The "Safe Standard"—ensures the entire image is visible, even if it leaves empty letter-boxing space.
+- **Visual Integrity:** Eliminated the distorted "stretched" look by replacing default browser behavior with explicit object-fit strategies.
+- **Positional Awareness:** Used `object-top/bottom/center` to control the "Focus Point" of a cropped image.
+- **The v4 Bridge:**
+    - **Infinite Ratios:** Prepared for v4's native support for dynamic fractions (`aspect-[4/5]`, `aspect-[21/9]`) without configuration bloat.
+    - **Interpolation Performance:** Understood how Oxide offloads image scaling calculations to the GPU for silk-smooth responsive transformations.
+</details>
+
+<details>
+<summary><b>🌊 Module 14: Flexbox</b></summary>
+
 *Coming soon...*
-- **v4 Focus:** Dynamic aspect-ratio variables and optimized image rendering.
+- **v4 Focus:** Flex-gap logic and modernized axis control.
 </details>
 
 ---
