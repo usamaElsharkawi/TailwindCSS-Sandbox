@@ -260,8 +260,26 @@ In this journey, we prioritize the **v4 features**, moving beyond traditional co
 <details>
 <summary><b>✨ Module 17: Animation Masterclass</b></summary>
 
+- **The Heartbeat Principle:** 
+    - Distinguished between **Transitions** (Event-driven A-to-B) and **Animations** (Continuous Loops).
+- **Core Library Implementation:** 
+    - **`animate-spin`**: Standardized for loading states.
+    - **`animate-pulse`**: Implemented for "Skeleton Loaders" to improve Perceived Performance.
+    - **`animate-ping`**: Used for subtle notification awareness.
+    - **`animate-bounce`**: Used for directional guidance (Scroll indicators).
+- **The AI Synergy (Crucial Insight):** 
+    - **Keyframe Generation:** Recognized that while Tailwind provides the defaults, AI is the ultimate tool for generating **Custom @Keyframes.**
+    - **Natural Language Motion:** Leveraging AI to translate "vague" design feels (e.g., "Make it breathe like a heart") into precise mathematical CSS percentages and transforms.
+- **The v4 Bridge:**
+    - **Native CSS Variables:** Prepared for v4's movement toward putting animations directly into CSS variables, making it easier to paste AI-generated keyframes into the project.
+    - **Oxide Rendering:** Understood how the v4 engine handles looping animations without "Layout Thrashing" for better mobile battery life.
+</details>
+
+<details>
+<summary><b>🛠️ Module 18: Presets & Customizations</b></summary>
+
 *Coming soon...*
-- **v4 Focus:** Custom keyframes in CSS variables and motion-optimized engines.
+- **v4 Focus:** Zero-config theme variables and CSS-only theme extensions.
 </details>
 
 ---
