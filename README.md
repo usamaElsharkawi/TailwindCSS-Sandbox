@@ -176,10 +176,26 @@ In this journey, we prioritize the **v4 features**, moving beyond traditional co
 </details>
 
 <details>
-<summary><b>📐 Module 12: Typography & Spacing Pro</b></summary>
+<summary><b>📰 Module 12: Editorial Columns & Layout Strategy</b></summary>
+
+- **Editorial Flow (`columns-*`):** 
+    - Mastered the "Newspaper" flow: Content flows vertically through columns before wrapping to the next column.
+    - Implemented **Auto-Responsiveness** using size-based widths (`columns-xs`) instead of fixed column counts.
+- **Architectural Selection Logic (The Decision Tree):**
+    - **Flexbox (1D):** Reserved for linear alignment (Navbars, Social Icons).
+    - **Grid (2D):** Reserved for structured matrix layouts (Dashboards, Page Layouts).
+    - **Columns (Flow):** Primary choice for long-form text and Masonry-style image galleries.
+- **The Masonry Hack:** Used column flow to handle variable-height images without leaving vertical gaps (Pinterest UI).
+- **The v4 Bridge:**
+    - **Masonry Grid Integration:** Prepared for v4's support of the new native CSS Masonry spec, which allows L-to-R flow with column-style vertical stacking.
+    - **Performance:** Identified Oxide's improvements in handling multi-column reflow during browser resizing.
+</details>
+
+<details>
+<summary><b>🎭 Module 13: Aspect Ratio & Object Fit</b></summary>
 
 *Coming soon...*
-- **v4 Focus:** Fluid typography with `clamp()` and mathematical padding scales.
+- **v4 Focus:** Dynamic aspect-ratio variables and optimized image rendering.
 </details>
 
 ---
