@@ -291,10 +291,24 @@ In this journey, we prioritize the **v4 features**, moving beyond traditional co
 </details>
 
 <details>
-<summary><b>🌓 Module 19: Dark Mode</b></summary>
+<summary><b>🌓 Module 19: Dark Mode Architecture</b></summary>
+
+- **Dual-State Logic:** Implemented the **`dark:`** variant for localized, element-level color shifts.
+- **Trigger Strategies:**
+    - **Media Strategy**: Synchronizing UI with system-wide OS preferences (`prefers-color-scheme`).
+    - **Class Strategy**: Implementing manual control via the `dark` root class for user-driven toggle switches.
+- **Visual Ergonomics:** Mastered high-end dark aesthetics by avoiding Pure Black (`#000000`) in favor of deep Slates and Zincs for reduced eye strain and "soft" contrast.
+- **The v4 Bridge (The Semantic Revolution):**
+    - **Decoupled Styling**: Transitioned toward **Semantic Theme Variables** (`--color-canvas`), effectively moving dark-mode logic from the HTML into the Design System.
+    - **The `@variant` Directive**: Mastered the unified condition block in v4 CSS that handles both system settings and manual classes in a single logic-point.
+    - **Theme-Blind Components**: Architected React components that are "blind" to the theme state, using abstract tokens (`bg-canvas`) to reduce JSX complexity by 50%.
+</details>
+
+<details>
+<summary><b>🚀 Module 20: Optimization & Production</b></summary>
 
 *Coming soon...*
-- **v4 Focus:** System-native dark mode and simple `dark:` variant logic.
+- **v4 Focus:** The lightning-fast Oxide compiler and zero-runtime overhead.
 </details>
 
 ---
