@@ -278,8 +278,23 @@ In this journey, we prioritize the **v4 features**, moving beyond traditional co
 <details>
 <summary><b>🛠️ Module 18: Presets & Customizations</b></summary>
 
+- **The Design Brain (`tailwind.config.js`):** 
+    - Mastered the project’s "Source of Truth": Understanding how the configuration file dictates the entire visual language.
+- **Strategic Expansion:** 
+    - Implemented the **`theme.extend`** pattern: Successfully added brand-specific tokens (colors, fonts, custom spacing) while maintaining full access to the core Tailwind library.
+- **Architectural Naming:** 
+    - Transitioned from "Literal Naming" (`red-500`) to **"Functional Naming"** (`primary`, `action`, `danger`). This ensures that brand-wide color shifts can be handled in a single line of code.
+- **The v4 Bridge (The CSS-First Revolution):**
+    - **@theme Integration:** Prepared for the v4 "Config-less" approach, moving design definitions directly into the main CSS file using the `@theme` block.
+    - **Variable Auto-Generation:** Recognized how v4 maps standard CSS variables (e.g., `--color-brand`) to functional utilities (`bg-brand`) without the need for a JavaScript parsing step.
+    - **Oxide Performance:** Understood how the new engine treats CSS variables as native triggers, significantly reducing the build-time overheard of complex custom themes.
+</details>
+
+<details>
+<summary><b>🌓 Module 19: Dark Mode</b></summary>
+
 *Coming soon...*
-- **v4 Focus:** Zero-config theme variables and CSS-only theme extensions.
+- **v4 Focus:** System-native dark mode and simple `dark:` variant logic.
 </details>
 
 ---
